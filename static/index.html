@@ -9,7 +9,7 @@
 <body>
 <div class="container" ng-controller="MainCntl">
     <div style="text-align: center"><h2>Сервис приема денежных переводов</h2></div>
-    <form class="form-horizontal {{input_form_visibility}}" role="form" id="sender">
+     <form class="form-horizontal {{input_form_visibility}}" role="form" id="sender">
         <fieldset>
             <legend>Введите данные вашей карты</legend>
             <div class="form-group">
@@ -246,8 +246,37 @@
 
 <!-- Angular (necessary for Page plugins) -->
 <script src="resources/angular/angular.min.js"></script>
+<script src="resources/js/card.js"></script>
 <script>
-    var myApp = angular.module('myApp', []);
+    myApp = angular.module('myApp', []);
+    myApp.controller('ExampleCtrl', ['$scope', function ($scope) {
+
+        $scope.card = {
+            name: 'Mike Brown',
+            number: '5555 4444 3333 1111',
+            expiry: '11 / 2020',
+            cvc: '123'
+        };
+
+        $scope.cardPlaceholders = {
+            name: 'Your Full Name',
+            number: 'xxxx xxxx xxxx xxxx',
+            expiry: 'MM/YY',
+            cvc: 'xxx'
+        };
+
+        $scope.cardMessages = {
+            validDate: 'valid\nthru',
+            monthYear: 'MM/YYYY'
+        };
+
+        $scope.cardOptions = {
+            debug: false,
+            formatting: true
+        };
+
+    }]);
+
     myApp.controller('MainCntl', ['$scope', '$http', function ($scope, $http) {
         var $hidden = "visibility: hidden";
         var $visibility = "visibility: visible";
@@ -328,7 +357,7 @@
                 "commission": 0
             };
             $scope.currencies = ["RUB", "BYN", "USD", "EUR"];
-            $scope.years = ["2016", "2017", "2018", "2019","2020", "2021", "2022", "2023","2024", "2025", "2026", "2027"];
+            $scope.years = ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026", "2027"];
             $scope.error_string = "Заполните все поля для операции.";
             $scope.error_string_visibility = $visibility;
             $scope.success_string_visibility =
@@ -380,3 +409,4 @@
 <script src="resources/js/bootstrap.min.js"></script>
 </body>
 </html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
