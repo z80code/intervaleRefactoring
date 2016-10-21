@@ -9,7 +9,7 @@
 <body>
 <div class="container" ng-controller="MainCntl">
     <div style="text-align: center"><h2>Сервис приема денежных переводов</h2></div>
-     <form class="form-horizontal {{input_form_visibility}}" role="form" id="sender">
+      <form class="form-horizontal {{input_form_visibility}}" role="form" id="sender">
         <fieldset>
             <legend>Введите данные вашей карты</legend>
             <div class="form-group">
@@ -246,37 +246,9 @@
 
 <!-- Angular (necessary for Page plugins) -->
 <script src="resources/angular/angular.min.js"></script>
-<script src="resources/js/card.js"></script>
 <script>
-    myApp = angular.module('myApp', []);
-    myApp.controller('ExampleCtrl', ['$scope', function ($scope) {
 
-        $scope.card = {
-            name: 'Mike Brown',
-            number: '5555 4444 3333 1111',
-            expiry: '11 / 2020',
-            cvc: '123'
-        };
-
-        $scope.cardPlaceholders = {
-            name: 'Your Full Name',
-            number: 'xxxx xxxx xxxx xxxx',
-            expiry: 'MM/YY',
-            cvc: 'xxx'
-        };
-
-        $scope.cardMessages = {
-            validDate: 'valid\nthru',
-            monthYear: 'MM/YYYY'
-        };
-
-        $scope.cardOptions = {
-            debug: false,
-            formatting: true
-        };
-
-    }]);
-
+    var myApp = angular.module('myApp', []);
     myApp.controller('MainCntl', ['$scope', '$http', function ($scope, $http) {
         var $hidden = "visibility: hidden";
         var $visibility = "visibility: visible";
