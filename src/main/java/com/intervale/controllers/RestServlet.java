@@ -123,8 +123,8 @@ public class RestServlet extends HttpServlet {
 
         if (moneyTransfer1 != null || moneyTransfer1.getTransferId() != 0) {
             logger.info("Saved: " + new Gson().toJson(moneyTransfer1));
-            return new Gson().toJson("Success");
-        } else return new Gson().toJson("False");
+            return "Success";
+        } else return "False";
     }
 
     /**

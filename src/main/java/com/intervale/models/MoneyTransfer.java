@@ -103,7 +103,7 @@ public class MoneyTransfer {
         if (getDateTime() != that.getDateTime()) return false;
         if (!getClientCard().equals(that.getClientCard())) return false;
         if (!getSubClientCard().equals(that.getSubClientCard())) return false;
-        if (getCurrency() != that.getCurrency()) return false;
+        if (getCurrency() != (that.getCurrency())) return false;
         if (!getAmount().equals(that.getAmount())) return false;
         return getCommission().equals(that.getCommission());
 

@@ -14,13 +14,18 @@ public class MainServer {
     private Server server;
 
     public MainServer() {
+
         ResourceBundle bundle = ResourceBundle.getBundle("server");
         int port = Integer.parseInt(bundle.getString("server.port"));
+
+        String restUrl = bundle.getString("server.url.service.rest");
+
         this.server = new Server(port);
 
         ServletContextHandler handler = new ServletContextHandler(ServletContextHandler.SESSIONS);
 
-        handler.addServlet(RestServlet.class, "/api/transfer/*");
+
+        handler.addServlet(RestServlet.class, restUrl);
 
         ResourceHandler resource_handler = new ResourceHandler();
         resource_handler.setDirectoriesListed(true);

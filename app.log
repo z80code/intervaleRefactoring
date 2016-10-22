@@ -2,3 +2,335 @@
 2016-10-21 21:49:47,167 INFO c.i.c.RestServlet [qtp158199555-19] Send: {"transferId":0,"clientCard":{"number":"123123123","ownerName":"wqqweqweqw","validity":1654030800},"subClientCard":{"number":"234234234234","ownerName":"rwerwerwer","validity":1756674000},"dateTime":1476692678355,"currency":"BYN","amount":9,"commission":0,"isError":true,"status":"Данного вида операции не поддерживаются. Приносим извинения за неудобства.","commissionOfAmount":0.0,"resultOperation":0.0} 
 2016-10-21 21:50:20,625 INFO c.i.c.RestServlet [qtp158199555-21] Received: {"transferId":0,"clientCard":{"number":"123123123","ownerName":"wqqweqweqw","validity":1654030800},"subClientCard":{"number":"234234234234","ownerName":"rwerwerwer","validity":1756674000},"dateTime":1476692678355,"currency":"BYN","amount":9,"commission":0,"commissionOfAmount":0.0,"resultOperation":0.0} 
 2016-10-21 21:50:20,625 INFO c.i.c.RestServlet [qtp158199555-21] Send: {"transferId":0,"clientCard":{"number":"123123123","ownerName":"wqqweqweqw","validity":1654030800},"subClientCard":{"number":"234234234234","ownerName":"rwerwerwer","validity":1756674000},"dateTime":1476692678355,"currency":"BYN","amount":9,"commission":0,"isError":true,"status":"Данного вида операции не поддерживаются. Приносим извинения за неудобства.","commissionOfAmount":0.0,"resultOperation":0.0} 
+2016-10-22 22:51:03,490 INFO c.i.c.RestServlet [qtp158199555-18] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":10,"commission":0,"isError":true,"commissionOfAmount":0.0,"resultOperation":0.0} 
+2016-10-22 22:51:03,490 INFO c.i.c.RestServlet [qtp158199555-23] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":1000,"commission":0,"isError":true,"commissionOfAmount":0.0,"resultOperation":0.0} 
+2016-10-22 22:51:03,490 INFO c.i.c.RestServlet [qtp158199555-20] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":1,"commission":0,"isError":true,"commissionOfAmount":0.0,"resultOperation":0.0} 
+2016-10-22 22:51:03,490 INFO c.i.c.RestServlet [qtp158199555-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":100,"commission":0,"isError":true,"commissionOfAmount":0.0,"resultOperation":0.0} 
+2016-10-22 22:51:04,137 INFO c.i.c.RestServlet [qtp158199555-23] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":1000,"commission":6.5,"isError":false,"commissionOfAmount":65.0,"resultOperation":1065.0} 
+2016-10-22 22:51:04,137 INFO c.i.c.RestServlet [qtp158199555-21] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":100,"commission":6.5,"isError":false,"commissionOfAmount":6.5,"resultOperation":106.5} 
+2016-10-22 22:51:04,137 INFO c.i.c.RestServlet [qtp158199555-18] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":10,"commission":6.5,"isError":false,"commissionOfAmount":0.65,"resultOperation":10.65} 
+2016-10-22 22:51:04,152 INFO c.i.c.RestServlet [qtp158199555-20] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":1,"commission":6.5,"isError":false,"commissionOfAmount":0.065,"resultOperation":1.065} 
+2016-10-22 22:51:10,850 INFO c.i.c.RestServlet [qtp158199555-22] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":10,"commission":6.5,"isError":false,"commissionOfAmount":0.065,"resultOperation":1.065} 
+2016-10-22 22:51:10,863 INFO c.i.c.RestServlet [qtp158199555-22] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":10,"commission":6.5,"isError":false,"commissionOfAmount":0.65,"resultOperation":10.65} 
+2016-10-22 22:51:11,067 INFO c.i.c.RestServlet [qtp158199555-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":100,"commission":6.5,"isError":false,"commissionOfAmount":0.65,"resultOperation":10.65} 
+2016-10-22 22:51:11,071 INFO c.i.c.RestServlet [qtp158199555-21] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":100,"commission":6.5,"isError":false,"commissionOfAmount":6.5,"resultOperation":106.5} 
+2016-10-22 22:51:20,406 INFO c.i.c.RestServlet [qtp158199555-18] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1585688400},"subClientCard":{"number":"24234234","ownerName":"werwerwer","validity":1617224400},"dateTime":1,"currency":"BYN","amount":100,"commission":6.5,"isError":false,"commissionOfAmount":6.5,"resultOperation":106.5} 
+2016-10-22 22:51:20,474 INFO c.i.c.RestServlet [qtp158199555-18] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 22:57:04,335 INFO c.i.c.RestServlet [qtp998062648-22] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":12,"commission":0,"isError":true,"commissionOfAmount":0.0,"resultOperation":0.0} 
+2016-10-22 22:57:04,335 INFO c.i.c.RestServlet [qtp998062648-18] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1,"commission":0,"isError":true,"commissionOfAmount":0.0,"resultOperation":0.0} 
+2016-10-22 22:57:04,352 INFO c.i.c.RestServlet [qtp998062648-18] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1,"commission":6.5,"isError":false,"commissionOfAmount":0.065,"resultOperation":1.065} 
+2016-10-22 22:57:04,352 INFO c.i.c.RestServlet [qtp998062648-22] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":12,"commission":6.5,"isError":false,"commissionOfAmount":0.78,"resultOperation":12.78} 
+2016-10-22 22:57:04,472 INFO c.i.c.RestServlet [qtp998062648-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":120,"commission":6.5,"isError":false,"commissionOfAmount":0.78,"resultOperation":12.78} 
+2016-10-22 22:57:04,472 INFO c.i.c.RestServlet [qtp998062648-21] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":120,"commission":6.5,"isError":false,"commissionOfAmount":7.8,"resultOperation":127.8} 
+2016-10-22 22:57:04,634 INFO c.i.c.RestServlet [qtp998062648-23] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":7.8,"resultOperation":127.8} 
+2016-10-22 22:57:04,634 INFO c.i.c.RestServlet [qtp998062648-23] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 22:57:34,844 INFO c.i.c.RestServlet [qtp998062648-19] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:03:12,746 INFO c.i.c.RestServlet [qtp998062648-19] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 23:03:45,453 INFO c.i.c.RestServlet [qtp998062648-22] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:09:00,919 INFO c.i.c.RestServlet [qtp998062648-22] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 23:09:22,935 INFO c.i.c.RestServlet [qtp998062648-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:11:41,466 INFO c.i.c.RestServlet [qtp998062648-21] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 23:11:52,248 INFO c.i.c.RestServlet [qtp998062648-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:19:55,886 INFO c.i.c.RestServlet [qtp998062648-21] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 23:20:06,819 INFO c.i.c.RestServlet [qtp158199555-20] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:20:06,851 INFO c.i.c.RestServlet [qtp158199555-20] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 23:20:10,846 INFO c.i.c.RestServlet [qtp158199555-18] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:20:10,879 INFO c.i.c.RestServlet [qtp158199555-18] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 23:20:28,883 INFO c.i.c.RestServlet [qtp998062648-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:22:28,589 INFO c.i.c.RestServlet [qtp998062648-21] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 23:22:45,654 INFO c.i.c.RestServlet [qtp158199555-19] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:22:45,738 INFO c.i.c.RestServlet [qtp158199555-19] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 23:22:53,430 INFO c.i.c.RestServlet [qtp158199555-20] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:22:53,461 INFO c.i.c.RestServlet [qtp158199555-20] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 23:23:03,806 INFO c.i.c.RestServlet [qtp998062648-22] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"dfgdfg","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:22,032 INFO c.i.c.RestServlet [qtp998062648-22] Error convert data. java.lang.NullPointerException
+	at com.intervale.controllers.RestServlet.putCommission(RestServlet.java:124)
+	at com.intervale.controllers.RestServlet.doPost(RestServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-22 23:25:46,949 INFO c.i.c.RestServlet [qtp158199555-19] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:46,996 INFO c.i.c.RestServlet [qtp158199555-19] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"541111","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:47,633 INFO c.i.c.RestServlet [qtp158199555-20] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:47,633 INFO c.i.c.RestServlet [qtp158199555-20] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:47,824 INFO c.i.c.RestServlet [qtp158199555-22] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:47,824 INFO c.i.c.RestServlet [qtp158199555-22] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:47,914 INFO c.i.c.RestServlet [qtp158199555-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"543","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:47,917 INFO c.i.c.RestServlet [qtp158199555-21] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"543","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:48,147 INFO c.i.c.RestServlet [qtp158199555-23] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:48,147 INFO c.i.c.RestServlet [qtp158199555-23] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:48,247 INFO c.i.c.RestServlet [qtp158199555-19] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:48,263 INFO c.i.c.RestServlet [qtp158199555-19] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:48,363 INFO c.i.c.RestServlet [qtp158199555-20] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"543534","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:48,363 INFO c.i.c.RestServlet [qtp158199555-20] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"543534","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:48,402 INFO c.i.c.RestServlet [qtp158199555-22] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:48,404 INFO c.i.c.RestServlet [qtp158199555-22] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"5435345","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:48,531 INFO c.i.c.RestServlet [qtp158199555-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:48,531 INFO c.i.c.RestServlet [qtp158199555-21] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1617224400},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:49,162 INFO c.i.c.RestServlet [qtp158199555-23] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1614546000},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:49,162 INFO c.i.c.RestServlet [qtp158199555-23] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1614546000},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:49,892 INFO c.i.c.RestServlet [qtp158199555-19] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:49,892 INFO c.i.c.RestServlet [qtp158199555-19] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"brand":"MASTERCARD","number":"541144","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:54,107 INFO c.i.c.RestServlet [qtp158199555-20] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:54,107 INFO c.i.c.RestServlet [qtp158199555-20] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1590958800},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:54,933 INFO c.i.c.RestServlet [qtp158199555-22] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1596229200},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:54,935 INFO c.i.c.RestServlet [qtp158199555-22] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1596229200},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:55,705 INFO c.i.c.RestServlet [qtp158199555-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:55,705 INFO c.i.c.RestServlet [qtp158199555-21] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"BYN","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:56,956 INFO c.i.c.RestServlet [qtp158199555-23] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"USD","amount":1200,"commission":6.5,"isError":false,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:25:56,972 INFO c.i.c.RestServlet [qtp158199555-23] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"USD","amount":1200,"commission":6.5,"isError":true,"status":"Данного вида операции не поддерживаются. Приносим извинения за неудобства.","commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:26:05,466 INFO c.i.c.RestServlet [qtp158199555-19] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":1200,"commission":6.5,"isError":true,"commissionOfAmount":78.0,"resultOperation":1278.0} 
+2016-10-22 23:26:05,466 INFO c.i.c.RestServlet [qtp158199555-19] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":1200,"commission":5,"isError":false,"commissionOfAmount":60.0,"resultOperation":1260.0} 
+2016-10-22 23:26:10,007 INFO c.i.c.RestServlet [qtp158199555-20] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":3,"commission":5,"isError":false,"commissionOfAmount":60.0,"resultOperation":1260.0} 
+2016-10-22 23:26:10,007 INFO c.i.c.RestServlet [qtp158199555-20] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":3,"commission":5,"isError":false,"commissionOfAmount":0.15,"resultOperation":3.15} 
+2016-10-22 23:26:10,031 INFO c.i.c.RestServlet [qtp158199555-22] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":34,"commission":5,"isError":false,"commissionOfAmount":60.0,"resultOperation":1260.0} 
+2016-10-22 23:26:10,032 INFO c.i.c.RestServlet [qtp158199555-22] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":34,"commission":5,"isError":false,"commissionOfAmount":1.7,"resultOperation":35.7} 
+2016-10-22 23:26:10,037 INFO c.i.c.RestServlet [qtp158199555-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":345,"commission":5,"isError":false,"commissionOfAmount":60.0,"resultOperation":1260.0} 
+2016-10-22 23:26:10,037 INFO c.i.c.RestServlet [qtp158199555-21] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":345,"commission":5,"isError":false,"commissionOfAmount":17.25,"resultOperation":362.25} 
+2016-10-22 23:26:14,885 INFO c.i.c.RestServlet [qtp158199555-23] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":345,"commission":5,"isError":false,"commissionOfAmount":17.25,"resultOperation":362.25} 
+2016-10-22 23:26:14,938 INFO c.i.c.RestServlet [qtp158199555-23] Saved: {"transferId":1217,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1477167974900,"currency":"RUB","amount":345,"commission":5,"commissionOfAmount":0.0,"resultOperation":0.0} 
+2016-10-22 23:26:21,531 INFO c.i.c.RestServlet [qtp158199555-19] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"BYN","amount":345,"commission":5,"isError":false,"commissionOfAmount":17.25,"resultOperation":362.25} 
+2016-10-22 23:26:21,531 INFO c.i.c.RestServlet [qtp158199555-19] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"BYN","amount":345,"commission":6.5,"isError":false,"commissionOfAmount":22.425,"resultOperation":367.425} 
+2016-10-22 23:26:24,144 INFO c.i.c.RestServlet [qtp158199555-20] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":345,"commission":6.5,"isError":false,"commissionOfAmount":22.425,"resultOperation":367.425} 
+2016-10-22 23:26:24,160 INFO c.i.c.RestServlet [qtp158199555-20] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"RUB","amount":345,"commission":5,"isError":false,"commissionOfAmount":17.25,"resultOperation":362.25} 
+2016-10-22 23:26:27,241 INFO c.i.c.RestServlet [qtp158199555-22] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"USD","amount":345,"commission":5,"isError":false,"commissionOfAmount":17.25,"resultOperation":362.25} 
+2016-10-22 23:26:27,241 INFO c.i.c.RestServlet [qtp158199555-22] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"USD","amount":345,"commission":5,"isError":true,"status":"Данного вида операции не поддерживаются. Приносим извинения за неудобства.","commissionOfAmount":17.25,"resultOperation":362.25} 
+2016-10-22 23:26:28,515 INFO c.i.c.RestServlet [qtp158199555-21] Received: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"EUR","amount":345,"commission":5,"isError":true,"commissionOfAmount":17.25,"resultOperation":362.25} 
+2016-10-22 23:26:28,515 INFO c.i.c.RestServlet [qtp158199555-21] Send: {"transferId":0,"clientCard":{"brand":"MASTERCARD","number":"54353453","ownerName":"werwerewr","validity":1551387600},"subClientCard":{"number":"24234234","ownerName":"fefsef","validity":1659301200},"dateTime":1,"currency":"EUR","amount":345,"commission":9.5,"isError":false,"commissionOfAmount":32.775,"resultOperation":377.775} 

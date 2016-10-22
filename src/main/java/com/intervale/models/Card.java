@@ -55,7 +55,7 @@ public class Card {
 
         Card card = (Card) o;
 
-        if (getNumber() != card.getNumber()) return false;
+        if (!getNumber().equals(card.getNumber())) return false;
         if (getValidity() != card.getValidity()) return false;
         if (getBrand() != card.getBrand()) return false;
         return getOwnerName().equals(card.getOwnerName());

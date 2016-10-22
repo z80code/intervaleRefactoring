@@ -48,9 +48,9 @@ public class MoneyTransferDaoImpl implements InterfaceEntityDao<MoneyTransfer> {
         );
         List<MoneyTransfer> moneyTransfers = getAll();
 
-        for (int i = moneyTransfers.size()-1; i >= 0; i--) {
-            if (moneyTransfers.get(i).equals(entity)) {
-                return moneyTransfers.get(i);
+        for (MoneyTransfer moneyTransfer: moneyTransfers) {
+            if (moneyTransfer.equals(entity)) {
+                return moneyTransfer;
             }
         }
         return null;
